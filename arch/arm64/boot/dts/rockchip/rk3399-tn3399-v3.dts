@@ -31,6 +31,7 @@
 		#clock-cells = <0>;
 	};
 
+	/*
 	gpio-leds {
 		compatible = "gpio-leds";
 		pinctrl-names = "default";
@@ -47,6 +48,7 @@
 			linux,default-trigger = "heartbeat";
 		};
 	};
+	*/
 
 	sdio_pwrseq: sdio-pwrseq {
 		compatible = "mmc-pwrseq-simple";
